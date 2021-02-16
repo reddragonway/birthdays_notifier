@@ -14,7 +14,7 @@ current_month = today.split(".")[1]
 # вспомогательный счетчик
 i = 0
 # открываем файл birthdays.txt и считываем его построчно
-b_file = open(r"C:\Birthdays_notifier\source_birthdays.txt", encoding="UTF-8")
+b_file = open("source_birthdays.txt", encoding="UTF-8")
 b_data = b_file.read().splitlines()
 # если выбран параметр --month
 if args.month:
